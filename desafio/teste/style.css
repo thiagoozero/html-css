@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+  background-color:#84e1ad ;
+}
+
+header{
+  width: 100;
+  background-color: #2b965a;
+  height: 117px;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+a{
+  color: white;
+  gap: 15px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+  font-size: 14px;
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}

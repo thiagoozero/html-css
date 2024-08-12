@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+ 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+}
+
+
+a :visited {
+  color: brown;
+}
+
+a :hover {
+  color: black;
+  text-decoration: underline
+  
+} 
+
+a :active{
+  color: silver ;
+}
+
+.principal{
+  background-color: aquamarine;
+}
+
+.principal ::before {
+  content:"⇨" ;
+}
+
+.principal ::after {
+  content: "⇦";
+}

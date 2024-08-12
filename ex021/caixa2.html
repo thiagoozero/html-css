@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+    <style>
+      body{
+        background-color: #BF1F3C;
+        font-family: Arial, Helvetica, sans-serif;
+      margin: 0px;
+      }
+
+      header{
+      
+       background-color: #0367A6;
+       color: #F2F2F2;
+       margin: 10px;
+       padding: 10px;
+      }
+
+
+      main{
+        background-color: #F2F2F2;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px 0px;
+      }
+
+      footer{
+        background-color:#0367A6 ;
+        color: #F2F2F2;
+        padding: 16px;
+        margin: 0px;
+        text-align: center;
+      }
+
+     a{
+        color: #F2F2F2;
+        text-decoration: none;
+        padding:  10px;
+             }
+
+             article{
+              background-color: #0367A6;
+              padding: 5px;
+             }
+
+             article > aside{
+              background-color:#BF1F3C ;
+             }
+
+             nav{
+              box-shadow: 2px 2px 3px white;
+              padding: 4px;
+              font-weight: bold;
+              background-color:#BF1F3C ;
+              font-weight: bold; /*fonte negrito*/
+             }
+
+             nav > a:hover{ /*Ativar decoração quando passar o mouse*/
+              text-decoration: underline;
+             }
+
+             p{
+              color: white;
+             }
+
+             aside{
+              color: white;
+              margin: 3px;
+              padding: 3px;
+             }
+  </style>
+  </head>
+  <body>
+  <header>
+      <h1>Meu Site</h1>
+      <nav id="menu">
+        <a href="#">Home</a>
+        <a href="#">WhatsZap</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Contato</a>
+   </nav>
+   </header>
+   <main>
+   <section id="assuntos">
+
+      </section>
+      <section class="notícias">
+        <h1>Esports e tecnologia </h1>
+   <article>
+  
+  <h2>A lava jato no Brasil</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eius quasi fugiat quo accusamus expedita quas iste ipsa, magni necessitatibus cumque alias dolorem asperiores accusantium hic mollitia fuga harum laboriosam!</p>
+  <aside> Artigo escrito por Carlos Velagran</aside>
+
+    </article>
+
+    </main>
+    <footer> Desenvolviodo por Thiago Silva</footer>
+    </body>
+</html>
